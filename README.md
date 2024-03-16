@@ -17,5 +17,6 @@
    <br>
 
 ## 🖥️ 구현된 화면
+(GIF가 첨부되어있어요. 로딩이 느려요 ㅜㅜ)
 ![Honeycam 2024-03-16 21-58-20](https://github.com/czmcm5/STUDY_TodoList/assets/116141225/5424c7dd-5864-49de-a4fe-d8216a74cc9a)
 (디자인 참고 - https://wsss.tistory.com/1581)
