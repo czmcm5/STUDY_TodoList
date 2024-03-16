@@ -44,6 +44,7 @@ const CheckBox = styled.div`
   }
 `;
 const Content = styled.div`
+  cursor: pointer;
   &.this {
     color: gray;
     text-decoration: line-through;
@@ -90,7 +91,12 @@ const List = (props) => {
               >
                 ✓
               </CheckBox>
-              <Content className={item.check ? "this" : ""}>
+              <Content
+                className={item.check ? "this" : ""}
+                onClick={() => {
+                  check(item.idx);
+                }}
+              >
                 {item.text}
               </Content>
             </RowView2>
